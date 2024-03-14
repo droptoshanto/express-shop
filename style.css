@@ -19,6 +19,10 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
 .cat1{
     background-image: linear-gradient(to bottom, #e4a104 0%, #eeb020);
 }
@@ -26,5 +30,31 @@
     background-image: linear-gradient(to bottom, #e61263 0%, #C6004B);
 }
 .cat3{
-    background-image: linear-gradient(to bottom, #1b3ff7 0%, #0f2dbe);
+    background-image: linear-gradient(to bottom, #0d28af 0%, #0f2dbe);
+}
+.catagories h1{
+    color: white;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#subscribe{
+    height: 300px;
+    
+}
+#subscribe h6{
+    color: gray;
+}
+.btn{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
 }
